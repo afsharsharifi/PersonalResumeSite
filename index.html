@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afshar Sharifi</title>
+    <!-- Importing Materialize CSS -->
+    <link rel="stylesheet" href="packages/materialize/css/materialize.min.css">
+    <!-- Materialize CSS Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav black white-text" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <!-- Sidebar Hide and Show Code -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav({});
+        });
+    </script>
+</body>
+
+</html>

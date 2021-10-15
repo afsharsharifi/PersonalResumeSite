@@ -1,0 +1,13 @@
+body {
+    background-image: url("/images/bg-image.jpg");
+}
+
+.sidenav li>a,
+nav ul a {
+    color: white;
+}
+
+.logo-img {
+    width: 80px;
+    height: auto;
+}
