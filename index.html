@@ -12,30 +12,36 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awosome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="nav-wrapper black">
-                <a href="/" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper black">
+                    <a href="/" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <ul class="sidenav black white-text" id="mobile-demo">
             <a href="/" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
             <li><a href="/">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
         </ul>
     </header>
 
@@ -104,6 +110,9 @@
     </section>
 
     <section id="portfolio" class="container section portfolio">
+        <blockquote>
+            <h4>My Portfolio</h4>
+        </blockquote>
         <div class="row">
             <div class="col s12 m6 l6 xl4">
                 <div class="card">
@@ -288,11 +297,96 @@
         </div>
     </section>
 
+    <section id="contact-me" class="container section">
+        <blockquote>
+            <h4>Contact Me</h4>
+        </blockquote>
+        <div class="card">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12 l6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="last_name" type="text" class="validate" required>
+                            <label for="last_name">Full Name</label>
+                        </div>
+                        <div class="input-field col s12 l6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email_field" type="email" class="validate" required>
+                            <label for="email_field">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="textarea1" class="materialize-textarea" required></textarea>
+                            <label for="textarea1">Please Type Your Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button class="btn right blue-grey" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer blue-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Get in touch</h5>
+                    <p class="grey-text text-lighten-4">
+                        <a href="https://t.me/afsharsharifi" class="btn-floating green">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+
+                        <a href="https://wa.me/+989012095461" class="btn-floating green">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </a>
+
+                        <a href="https://instagram.com/the.afshar" class="btn-floating green">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/afsharsharifi/" class="btn-floating green">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+
+                        <a href="https://github.com/afsharsharifi" class="btn-floating green">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+
+                        <a href="https://stackoverflow.com/users/13569971" class="btn-floating green">
+                            <i class="fab fa-stack-overflow fa-2x"></i>
+                        </a>
+
+                        <a href="#" class="btn-floating green">
+                            <i class="fab fa-hackerrank fa-2x"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Lorem</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, iste cum, rerum dolorem nulla debitis voluptatum, quod magni perferendis quidem officia voluptates. Corporis repellendus corrupti placeat quasi unde perferendis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright
+                <a class="grey-text text-lighten-4 right" href="https://afsharsharifi.ir">afsharsharifi.ir</a>
+            </div>
+        </div>
+    </footer>
 
     <!-- JQuery CDN -->
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
 
     <!-- Sidebar Hide and Show Code -->
@@ -305,6 +399,15 @@
         })
         $(document).ready(function() {
             $('.tooltipped').tooltip();
+        });
+        $(document).ready(function() {
+            $('input.autocomplete').autocomplete({
+                data: {
+                    "Apple": null,
+                    "Microsoft": null,
+                    "Google": 'https://placehold.it/250x250'
+                },
+            });
         });
     </script>
 </body>
