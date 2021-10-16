@@ -1,5 +1,9 @@
-body {
-    background-image: url("/images/bg-image.jpg");
+header {
+    background-image: url('../images/bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
 }
 
 .sidenav li>a,
@@ -10,4 +14,24 @@ nav ul a {
 .logo-img {
     width: 80px;
     height: auto;
+}
+
+blockquote {
+    border-left: 5px solid black;
+}
+
+.portfolio img {
+    height: 200px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img {
+    transition: all .3s ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.1);
 }

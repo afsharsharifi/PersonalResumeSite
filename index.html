@@ -15,27 +15,278 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper black">
-            <a href="#" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="/" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav black white-text" id="mobile-demo">
+            <a href="/" class="brand-logo"><img src="images/logo.png" class="logo-img"></a>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </header>
 
-    <ul class="sidenav black white-text" id="mobile-demo">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
-    </ul>
+    <section id="about-me" class="container section">
+        <div class="about-me-title">
+            <h5>Abou Me!</h5>
+            <blockquote>
+                <h5><b>Afshar Sharifi</b></h5>
+                <h6><i>Back-end Developer</i></h6>
+                <br>
+                <h6><i class="material-icons left">email</i>E-mail: <a href="mailto:afsharsharifi2020@gmail.com">afsharsharifi2020@gmail.com</a></h6>
+                <h6><i class="material-icons left">phone</i>Phone: <a href="tel:+989012095461">09012095461</a></h6>
+                <h6><i class="material-icons left">location_on</i>Locarion: Iran/Tehran</h6>
+
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="parallax-container">
+        <div class="parallax">
+            <img src="images/parallax about me.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="skills" class="container section">
+        <blockquote>
+            <h4>My Skills</h4>
+        </blockquote>
+        <div class="skills">
+            <div class="row">
+                <span class="col s3 l2">Python</span>
+                <input class="col s8 l9" type="range" value="70" disabled>
+                <span class="col s1 l1">70%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">Django</span>
+                <input class="col s8 l9" type="range" value="80" disabled>
+                <span class="col s1 l1">80%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">Flask</span>
+                <input class="col s8 l9" type="range" value="80" disabled>
+                <span class="col s1 l1">80%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">JavaScript</span>
+                <input class="col s8 l9" type="range" value="50" disabled>
+                <span class="col s1 l1 l1">50%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">HTML</span>
+                <input class="col s8 l9" type="range" value="100" disabled>
+                <span class="col s1 l1">100%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">CSS</span>
+                <input class="col s8 l9" type="range" value="80" disabled>
+                <span class="col s1 l1">80%</span>
+            </div>
+            <div class="row">
+                <span class="col s3 l2">Materialize</span>
+                <input class="col s8 l9" type="range" value="90" disabled>
+                <span class="col s1 l1">90%</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="container section portfolio">
+        <div class="row">
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-01.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-02.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-03.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-01.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-02.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-03.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-01.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-02.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/portfolio/portfolio-03.webp" alt="">
+                        <a href="#" class="halfway-fab btn-floating black pulse">
+                            <i class="material-icons">insert_link</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quia.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="blue-grey-text">Github</a>
+                        <a href="#" class="black-text">Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- JQuery CDN -->
@@ -48,6 +299,12 @@
     <script>
         $(document).ready(function() {
             $('.sidenav').sidenav({});
+        });
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        })
+        $(document).ready(function() {
+            $('.tooltipped').tooltip();
         });
     </script>
 </body>
