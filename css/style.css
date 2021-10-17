@@ -35,3 +35,26 @@ blockquote {
 .card:hover img {
     transform: scale(1.1);
 }
+
+input[type=range]::-webkit-slider-thumb {
+    background-color: black;
+}
+
+input[type=range]::-moz-range-thumb {
+    background-color: black;
+}
+
+input[type=range]::-ms-thumb {
+    background-color: black;
+}
+
+
+/***** These are to edit the thumb and the text inside the thumb *****/
+
+input[type=range]+.thumb {
+    background-color: #dedede;
+}
+
+input[type=range]+.thumb.active .value {
+    color: black;
+}
