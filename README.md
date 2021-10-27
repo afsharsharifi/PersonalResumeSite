@@ -8,7 +8,7 @@
 <!-- Project Description -->
 <div>
     <p align="center">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus
+    This is my first use of Materialize CSS, a very simple personal resume site
     </p>
 </div>
 <br>
